@@ -13,6 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+
 body {
   background-color: #fffeea;
     /*background-image: url("../img/bonn2.jpg");
@@ -22,3 +24,6 @@ body {
     padding: 5%;
     padding-top: 5%;
     height: 100%;}*/
+
+<%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
