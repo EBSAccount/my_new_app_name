@@ -8,16 +8,18 @@ h1 {
   color: grey;
 }
 
-nav {
+div {
   font-family: Futura, Helvetica, Arial, sans-serif;
   font-size: 2em;
   color: grey;
+  background-color: black;
 }
 
-/*ul li {
+ul li {
   display: inline-block;
-  float: right;
-}*/
+  float: right; 
+  margin-right: 2%; 
+}
 
 ul li a {
   color: grey;
