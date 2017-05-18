@@ -6,6 +6,7 @@ h1 {
   font-family: Futura, Helvetica, Arial, sans-serif;
   font-size: 4em;
   color: grey;
+  text-align: center;  
 }
 
 div {
@@ -13,12 +14,14 @@ div {
   font-size: 2em;
   color: grey;
   background-color: black;
+  text-align: center;  
 }
 
 ul li {
   display: inline-block;
   float: right; 
-  margin-right: 2%; 
+  margin-right: 2%;
+  text-align: center;   
 }
 
 ul li a {
@@ -26,4 +29,23 @@ ul li a {
   text-transform: uppercase;
   transition: color 600ms;
   -webkit-transition: color 600ms;
+  text-align: center;  
+}
+
+h2 {
+  text-align: center;  
+}
+
+p {
+  text-align: center;  
+}
+
+footer {
+  text-align: center;  
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
